@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap');
+body{
+	background-color: darkred;
+	font-family: 'Bebas Neue', cursive;
+}
+h1{
+	color: darkorange;
+}
+p{
+	color: orange;
+}
+.menu{
+	background-color: ghostwhite;
+	border-style: solid;
+	width: 200px;
+}
+.elmo {
+	background-color: lightyellow;
+	height: 500px;
+	width: 700px;
+}
+img.image{
+	height: 400px;
+	width: 600px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightyellow;
+    font-family: 'Lobster', cursive;
+}
+h1{
+	color: blue;
+}
+
+p {
+	color: lightblue;
+}
+.elmo {
+	background-color: darkred;
+	height: 300px;
+	width: 500px;
+}
+img.image{
+	height: 200px;
+	width: 400px;
+}
+}
